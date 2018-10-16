@@ -2,8 +2,8 @@ Source: dr-valentin
 Section: misc
 Priority: standard
 Maintainer: Equipo LliureX <lliurex@gva.es>
-Build-Depends: llxsrchelper,debhelper (>= 7), llxcfg-dev, librsvg2-bin, zero-dev
-Standards-Version: 3.9.3
+Build-Depends: llxsrchelper,debhelper (>= 10),zero-dev,python3-poinstaller
+Standards-Version: 4.1.2
 
 Package: dr-valentin
 Architecture: all
