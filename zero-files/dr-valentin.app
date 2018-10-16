@@ -1,0 +1,15 @@
+Name=dr-valentin
+Name[en]=Dr Valentin
+Name[qcv]=Dr Valentin
+Name[ca@valencia]=Dr Valentin
+Name[es]=Dr Valentin
+Comment=Diagnose your system
+Comment[en]=Diagnose your system
+Comment[es]=Diagnostica tu sistema
+Comment[qcv]=Diagnostica el teu sistema
+Comment[ca@valencia]=Diagnostica el teu sistema
+Icon=dr-valentin
+Using=pe
+Category=System
+ScriptPath=dr-valentin.zmd
+Groups=teachers;admin;admins;adm

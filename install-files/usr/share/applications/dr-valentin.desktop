@@ -1,0 +1,19 @@
+[Desktop Entry]
+Version=1.0
+Encoding=UTF-8
+Name=Dr-Valentin
+Name[es]=Dr. Valentín
+Name[ca]=Dr. Valentín
+Name[ca_ES@valencia]=Dr. Valentín
+Name[ca_ES.UTF-8@valencia]=Dr. Valentín
+Comment=Lliurex diagnostic tool which performs a series of tests to check the status of certain services and collects different configuration files of these services and other programs that LliureX offers
+Comment[es]=Herramienta de diagnostico de Lliurex que realiza una serie de pruebas para comprobar el estado de ciertos servicios y recopila diferentes ficheros de configuración de estos servicios y otros programas que LliureX ofrece
+Comment[ca]=Ferramenta de diagnosi de Lliurex que realitza una sèrie de proves per a comprovar l'estat de certs serveis i recopila diferents fitxers de configuració d'aquests serveis i altres programes que LliureX ofereix
+Comment[ca_ES@valencia]=Ferramenta de diagnosi de Lliurex que realitza una sèrie de proves per a comprovar l'estat de certs serveis i recopila diferents fitxers de configuració d'aquests serveis i altres programes que LliureX ofereix
+Comment[ca_ES.UTF-8@valencia]=Ferramenta de diagnosi de Lliurex que realitza una sèrie de proves per a comprovar l'estat de certs serveis i recopila diferents fitxers de configuració d'aquests serveis i altres programes que LliureX ofereix
+Exec=gksu dr-valentin
+Terminal=false
+Icon=dr-valentin
+Type=Application
+GenericName=Dr-Valentin
+Categories=LliureX-Administration;GTK

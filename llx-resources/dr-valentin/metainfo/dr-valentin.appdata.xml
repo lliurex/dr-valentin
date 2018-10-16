@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='utf-8'?>
+<component type="desktop-application">
+<id>dr-valentin</id>
+<metadata_license>CC0-1.0</metadata_license>
+<name>Dr-Valentin</name>
+<name xml:lang="es">Dr. Valentín</name>
+<name xml:lang="ca">Dr. Valentín</name>
+<name xml:lang="ca_ES@valencia">Dr. Valentín</name>
+<name xml:lang="ca_ES.UTF-8@valencia">Dr. Valentín</name>
+<summary>Lliurex diagnostic tool.</summary>
+<summary xml:lang="es">Herramienta de diagnostico de Lliurex.</summary>
+<summary xml:lang="ca">Ferramenta de diagnosi de Lliurex.</summary>
+<summary xml:lang="ca_ES@valencia">Ferramenta de diagnosi de Lliurex.</summary>
+<summary xml:lang="ca_ES.UTF-8@valencia">Eina de diagnosi de LliureX.</summary>
+<description>
+<p>Lliurex diagnostic tool which performs a series of tests to check the status of certain services and collects different configuration files of these services and other programs that LliureX offers. All these tests are stored in a compressed file that is very useful for the SAI and that can be used to solve problems or questions that arise in the forums</p>
+<p xml:lang="es">Herramienta de diagnostico de Lliurex que realiza una serie de pruebas para comprobar el estado de ciertos servicios y recopila diferentes ficheros de configuración de estos servicios y otros programas que LliureX ofrece. Todas estas pruebas se almacenan en un fichero comprimido que es de gran utilidad para el SAI y que puede servir para resolver problemas o cuestiones que se plantean en los foros</p>
+<p xml:lang="ca">Ferramenta de diagnosi de Lliurex que realitza una sèrie de proves per a comprovar l'estat de certs serveis i recopila diferents fitxers de configuració d'aquests serveis i altres programes que LliureX ofereix. Totes aquestes proves s'emmagatzemen en un fitxer comprimit que és de gran utilitat per al SAI i que pot servir per a resoldre problemes o qüestions que es plantegen en els forums</p>
+<p xml:lang="ca_ES.UTF-8@valencia">Eina de diagnosi de LliureX que realitza una sèrie de proves per a comprovar l'estat de certs serveis, i recopila diferents fitxers de configuració d'aquests i d'altres programes que LliureX ofereix. Totes aquestes proves s'emmagatzemen en un fitxer comprimit que és de gran utilitat per al SAI i que pot servir per a resoldre problemes o qüestions que es plantegen en els fòrums.</p>
+<p xml:lang="ca_ES@valencia">Eina de diagnosi de LliureX que realitza una sèrie de proves per a comprovar l'estat de certs serveis, i recopila diferents fitxers de configuració d'aquests i d'altres programes que LliureX ofereix. Totes aquestes proves s'emmagatzemen en un fitxer comprimit que és de gran utilitat per al SAI i que pot servir per a resoldre problemes o qüestions que es plantegen en els fòrums.</p>
+</description>
+<categories>
+<category>Administration</category>
+<category>LliureX</category>
+
+</categories>
+<icon type="stock">dr-valentin</icon>
+<provides><binary>gksu</binary></provides>
+<keywords>
+<keyword>Dr-Valentin</keyword>
+<keyword>Dr.</keyword>
+<keyword>Valentín</keyword>
+<keyword>lliurex</keyword>
+<keyword>hardware</keyword>
+<keyword>maquinari</keyword>
+<keyword>diagnostico</keyword>
+<keyword>diagnosi</keyword>
+<keyword>herramienta</keyword>
+<keyword>ferramenta</keyword>
+</keywords>
+<developer_name>Lliurex Team</developer_name>
+</component>
