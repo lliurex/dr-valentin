@@ -1,0 +1,145 @@
+dr-valentin (0.22-lliurex2) xenial; urgency=medium
+
+  * Removed deprecated locale
+
+ -- Juanma Navarro Mañez <juanma1980@gmail.com>  Thu, 22 Jun 2017 09:16:30 +0200
+
+dr-valentin (0.22-lliurex1) xenial; urgency=medium
+
+  * Updated metainfo
+
+ -- Juanma Navarro Mañez <juanma1980@gmail.com>  Thu, 25 May 2017 14:22:26 +0200
+
+dr-valentin (0.22) xenial; urgency=medium
+
+  * Added metainfo
+
+ -- Juanma Navarro Mañez <juanma1980@gmail.com>  Wed, 10 May 2017 12:50:17 +0200
+
+dr-valentin (0.21) xenial; urgency=medium
+
+  * Fix desktop to lliurex-store
+
+ -- Juan Ramon Pelegrina <juapesai@hotmail.com>  Fri, 21 Apr 2017 10:53:32 +0200
+
+dr-valentin (0.20) xenial; urgency=medium
+
+  * Fix code to show icon in Docker
+
+ -- Juan Ramon Pelegrina <juapesai@hotmail.com>  Thu, 09 Feb 2017 10:45:55 +0100
+
+dr-valentin (0.19) xenial; urgency=medium
+
+  * Fix bug in desktop file
+
+ -- Juan Ramon Pelegrina <juapesai@hotmail.com>  Wed, 07 Sep 2016 08:36:40 +0200
+
+dr-valentin (0.18) xenial; urgency=medium
+
+  * Fix valencian translation in desktop file
+
+ -- Juan Ramon Pelegrina <juapesai@hotmail.com>  Thu, 01 Sep 2016 10:18:19 +0200
+
+dr-valentin (0.17) xenial; urgency=medium
+
+  * Fixed, tested and ported to xenial
+
+ -- M.Angel Juan <m.angel.juan@gmail.com>  Wed, 16 Mar 2016 12:51:40 +0100
+
+dr-valentin (0.14) trusty; urgency=high
+
+  * Added language
+
+ -- Angel Berlanas Vicente <angel.berlanas@gmail.com>  Thu, 30 Jul 2015 14:37:39 +0200
+
+dr-valentin (0.13) trusty; urgency=high
+
+  * Updated translation on desktop. 
+
+ -- Angel Berlanas Vicente <angel.berlanas@gmail.com>  Thu, 30 Jul 2015 10:23:54 +0200
+
+dr-valentin (0.12) trusty; urgency=high
+
+  * Updated dr-valentin to use zero-dev 
+
+ -- Angel Berlanas Vicente <angel.berlanas@gmail.com>  Wed, 15 Jul 2015 11:26:24 +0200
+
+dr-valentin (0.11) trusty; urgency=medium
+
+  * Added zero-center files
+
+ -- Hector Garcia Huerta <hectorgh@gmail.com>  Thu, 02 Jul 2015 12:16:25 +0200
+
+dr-valentin (0.10) trusty; urgency=medium
+
+  * First trusty release
+
+ -- Hector Garcia Huerta <hectorgh@gmail.com>  Thu, 02 Jul 2015 08:40:43 +0200
+
+dr-valentin (0.9) precise; urgency=low
+
+  * Added svg banner
+
+ -- Enrique Medina Gremaldos <lliurex_devel4@edu.gva.es>  Tue, 17 Jun 2014 12:35:32 +0200
+
+dr-valentin (0.8) precise; urgency=high
+
+  * Added dr-valentin-common dependency with common tests
+
+ -- Hector Garcia Huerta <hectorgh@gmail.com>  Fri, 13 Jun 2014 09:51:54 +0200
+
+dr-valentin (0.7) precise; urgency=high
+
+  * Updated translation 
+
+ -- Angel Berlanas Vicente <angel.berlanas@gmail.com>  Wed, 11 Jun 2014 13:58:28 +0200
+
+dr-valentin (0.6) precise; urgency=low
+
+  * Added common tests
+  * Deletes tmp folder after diagnostic is done
+
+ -- Hector Garcia Huerta <hectorgh@gmail.com>  Tue, 17 Dec 2013 11:56:51 +0100
+
+dr-valentin (0.5.2) precise; urgency=high
+
+  * Fixed window position
+  * Fixed cli when DISPLAY is not available
+
+ -- Hector Garcia Huerta <hectorgh@gmail.com>  Fri, 13 Dec 2013 14:00:52 +0100
+
+dr-valentin (0.5.1) precise; urgency=high
+
+  * Fixed exit process
+
+ -- Hector Garcia Huerta <hectorgh@gmail.com>  Fri, 13 Dec 2013 13:57:44 +0100
+
+dr-valentin (0.5) precise; urgency=high
+
+  * Fixed typo
+
+ -- Hector Garcia Huerta <hectorgh@gmail.com>  Fri, 13 Dec 2013 13:54:57 +0100
+
+dr-valentin (0.4) precise; urgency=high
+
+  * Changed the way GUI permissions are asked
+
+ -- Hector Garcia Huerta <hectorgh@gmail.com>  Fri, 13 Dec 2013 12:14:46 +0100
+
+dr-valentin (0.3) precise; urgency=high
+
+  * Adding GUI
+
+ -- Hector Garcia Huerta <hectorgh@gmail.com>  Fri, 25 Oct 2013 11:50:22 +0200
+
+dr-valentin (0.2) precise; urgency=high
+
+  * Adding client configuration
+
+ -- Hector Garcia Huerta <hectorgh@gmail.com>  Fri, 04 Oct 2013 09:15:16 +0200
+
+dr-valentin (0.1) precise; urgency=low
+
+  * First release
+
+ -- Hector Garcia Huerta <hectorgh@gmail.com>  Wed, 02 Oct 2013 10:00:31 +0200
