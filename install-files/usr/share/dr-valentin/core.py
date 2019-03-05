@@ -198,7 +198,8 @@ class Core:
 		'''
 		cmd="python /usr/share/dr-valentin/core.py cli " + self.folder_chooser.get_current_folder()
 		if self.lliurex_type=="server":
-			cmd="gksu " + cmd
+#			cmd="gksu " + cmd
+			cmd="pkexec " + cmd
 			
 		os.system(cmd)
 		os.system("xdg-open " + self.folder_chooser.get_current_folder() )
