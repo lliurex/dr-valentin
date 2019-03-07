@@ -53,7 +53,8 @@ class Core_cli:
 		
 		
 		if "server" in self.lliurex_version:
-			self.check_root()
+#polkit handles permissions
+#			self.check_root()
 			self.lliurex_type="server"
 			srv=server.Server(self)
 			
