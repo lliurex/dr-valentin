@@ -1,7 +1,0 @@
-[net.lliurex.zero-center.dr-valentin.dr-valentin.launcher]
-Identity=unix-group:adm;unix-groups:admins
-Action=net.lliurex.zero-center.dr-valentin.dr-valentin.launcher
-ResultAny=auth_self_keep
-ResultInactive=auth_self_keep
-ResultActive=auth_self_keep
-
