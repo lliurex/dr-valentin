@@ -57,43 +57,22 @@ class Core:
 		self.lliurex_type=None
 		
 		
-		if not gui:
 		
-			if "server" in self.lliurex_version:
-				self.check_root()
-				self.lliurex_type="server"
-				srv=server.Server(self)
+		if "server" in self.lliurex_version:
+			#self.check_root()
+			self.lliurex_type="server"
+			self.clss=server.Server
+			
+		if "client" in self.lliurex_version:
+			if self.lliurex_type==None:
+				self.lliurex_type="client"
+				self.clss=client.Client
 				
-			if "client" in self.lliurex_version:
-				if self.lliurex_type==None:
-					self.lliurex_type="client"
-					cln=client.Client(self)
-					
-			if "desktop" in self.lliurex_version:
-				if self.lliurex_type==None:
-					self.lliurex_type="desktop"
-			
-			common.Common(self)
-			
-			self.compress_result()
-			
-		else:
-			
-			if "server" in self.lliurex_version:
-				#self.check_root()
-				self.lliurex_type="server"
-				self.clss=server.Server
-				
-			if "client" in self.lliurex_version:
-				if self.lliurex_type==None:
-					self.lliurex_type="client"
-					self.clss=client.Client
-					
-			if "desktop" in self.lliurex_version:
-				if self.lliurex_type==None:
-					self.lliurex_type="desktop"
-			
-			self.start_gui()
+		if "desktop" in self.lliurex_version:
+			if self.lliurex_type==None:
+				self.lliurex_type="desktop"
+		
+		self.start_gui()
 			
 				
 			
@@ -170,8 +149,6 @@ class Core:
 			
 			
 		return path
-					
-				
 
 	
 	def check_thread(self):
@@ -196,10 +173,10 @@ class Core:
 		self.msg_label.set_markup(def_msg)
 		os.system("xdg-open " + self.folder_chooser.get_current_folder() )
 		'''
-		cmd="python /usr/share/dr-valentin/core.py cli " + self.folder_chooser.get_current_folder()
-		if self.lliurex_type=="server":
+		cmd="/usr/share/dr-valentin/core_cli.py " + self.folder_chooser.get_current_folder()
+#		if self.lliurex_type=="server":
 #			cmd="gksu " + cmd
-			cmd="pkexec " + cmd
+		cmd="pkexec " + cmd
 			
 		os.system(cmd)
 		os.system("xdg-open " + self.folder_chooser.get_current_folder() )
@@ -323,34 +300,6 @@ class Core:
 			
 	#def check_root
 			
-	def compress_result(self):
-		
-		file_name="drvalentin-"+self.lliurex_type+"_"+time.strftime("%d%m%Y",time.gmtime())+".tar.gz"
-		
-		print("\n[CORE] Creating tar.gz file...")
-		
-		tar=tarfile.open(self.path+file_name,"w:gz")
-		
-		os.chdir(self.temp_folder)
-		
-		for item in os.listdir("."):
-			path=item
-			#if os.path.isdir(path):
-			print("\t* Adding " + path + " ...")
-			tar.add(path)
-				
-		tar.close()
-		print("\n[CORE] Diagnostic file " + self.path +file_name + " ready.\n")
-		
-		try:
-			shutil.rmtree(self.temp_folder)
-		except:
-			pass
-		
-		return self.path + file_name
-		
-	#def compress_result
-	
 #class Core
 
 def usage():
