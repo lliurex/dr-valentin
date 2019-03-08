@@ -1,3 +1,9 @@
+dr-valentin (0.35) bionic; urgency=medium
+
+  * Removed polkit rules from zomando
+
+ -- Juanma Navarro Mañez <juanma1980@gmail.com>  Fri, 08 Mar 2019 11:17:23 +0100
+
 dr-valentin (0.34) bionic; urgency=medium
 
   * Add polkit files
