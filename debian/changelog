@@ -1,3 +1,9 @@
+dr-valentin (0.36) bionic; urgency=medium
+
+  * Add path parameter to core_cli
+
+ -- Juanma Navarro Mañez <juanma1980@gmail.com>  Mon, 11 Mar 2019 09:50:59 +0100
+
 dr-valentin (0.35.1) bionic; urgency=medium
 
   * Replace group adm by sudo
