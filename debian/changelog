@@ -1,3 +1,9 @@
+dr-valentin (0.35.1) bionic; urgency=medium
+
+  * Replace group adm by sudo
+
+ -- Juanma Navarro Mañez <juanma1980@gmail.com>  Mon, 11 Mar 2019 09:29:27 +0100
+
 dr-valentin (0.35) bionic; urgency=medium
 
   * Removed polkit rules from zomando
