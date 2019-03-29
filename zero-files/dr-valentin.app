@@ -11,4 +11,4 @@ Comment[ca@valencia]=Diagnostica el teu sistema
 Icon=dr-valentin
 Category=System
 ScriptPath=dr-valentin.zmd
-Groups=teachers;admin;admins;adm
+Groups=teachers;admin;admins;sudo
