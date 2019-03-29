@@ -113,4 +113,9 @@ class Core_cli:
 		except:
 			return None
 
-dr=Core_cli()
+path="/tmp"
+if len(sys.argv)>1:
+    if os.path.isdir(sys.argv[1]):
+        path=sys.argv[1]
+
+dr=Core_cli(path)
