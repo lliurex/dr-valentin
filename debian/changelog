@@ -1,3 +1,9 @@
+dr-valentin (0.37) bionic; urgency=medium
+
+  * Adding sudo group to zomando
+
+ -- Juan Ramon Pelegrina <juapesai@hotmail.com>  Fri, 29 Mar 2019 13:50:11 +0100
+
 dr-valentin (0.36) bionic; urgency=medium
 
   * Add path parameter to core_cli
