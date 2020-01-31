@@ -1,3 +1,9 @@
+dr-valentin (0.38) bionic; urgency=medium
+
+  * Migrated to python3
+  
+ -- Juan Ramon Pelegrina <juapesai@hotmail.com>  Fri, 31 Jan 2020 10:09:05 +0100
+
 dr-valentin (0.37) bionic; urgency=medium
 
   * Adding sudo group to zomando

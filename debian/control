@@ -7,6 +7,6 @@ Standards-Version: 4.1.2
 
 Package: dr-valentin
 Architecture: all
-Depends: python, n4d, dr-valentin-common,${shlibs:Depends}
+Depends: python3, n4d, dr-valentin-common,${shlibs:Depends}
 Description:  Lliurex Diagnostic tool
  Package to create system diagnostics
