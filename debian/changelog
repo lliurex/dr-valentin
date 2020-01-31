@@ -1,3 +1,9 @@
+dr-valentin (0.39) bionic; urgency=medium
+
+  * Removed gksu from desktop file
+  
+ -- Juan Ramon Pelegrina <juapesai@hotmail.com>  Fri, 31 Jan 2020 11:01:39 +0100
+
 dr-valentin (0.38) bionic; urgency=medium
 
   * Migrated to python3
