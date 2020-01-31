@@ -1,4 +1,4 @@
 #!/bin/sh
 
-python /usr/share/dr-valentin/core.py
+python3 /usr/share/dr-valentin/core.py
 

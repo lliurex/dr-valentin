@@ -145,7 +145,7 @@ class Core:
 					
 					
 		except Exception as e:
-			print e,"!!!"
+			prin(e,"!!!")
 			
 			
 		return path
@@ -186,7 +186,7 @@ class Core:
 	
 	def set_css_info(self):
 		
-		css = """
+		css = b"""
 		#ButtonBox {
 			background-image: -gtk-gradient (linear,	left top, right top, from (rgba(255,255,255,0.6)),  to (rgba(210,210,210,0)));
 		}
@@ -268,6 +268,9 @@ class Core:
 		try:
 			p=subprocess.Popen(["lliurex-version"],stdout=subprocess.PIPE)
 			output=p.communicate()[0]
+
+			if type(output) is bytes:
+				output=output.decode()
 			
 			output=output.strip("\n").split(", ")
 			return output
@@ -304,10 +307,10 @@ class Core:
 
 def usage():
 	
-	print "USAGE:"
-	print "\tdr-valentin-cli [DIAGNOSTIC-DESTINATION-FOLDER]"
-	print "\t\tBy default, destination folder is /tmp/"
-	print "\tdr-valentin"
+	print("USAGE:")
+	print("\tdr-valentin-cli [DIAGNOSTIC-DESTINATION-FOLDER]")
+	print("\t\tBy default, destination folder is /tmp/")
+	print("\tdr-valentin")
 
 
 if __name__=="__main__":
@@ -330,6 +333,6 @@ if __name__=="__main__":
 		else:
 			c=Core()
 	except Exception as e:
-		print e
+		print(e)
 		pass
 
