@@ -1,4 +1,4 @@
-#!/usr/bin/env python2
+#!/usr/bin/env python3
 import os
 
 import os.path
@@ -107,6 +107,9 @@ class Core_cli:
 			p=subprocess.Popen(["lliurex-version"],stdout=subprocess.PIPE)
 			output=p.communicate()[0]
 			
+			if type(output) is bytes:
+				output=output.decode()
+				
 			output=output.strip("\n").split(", ")
 			return output
 			
