@@ -1,3 +1,9 @@
+dr-valentin (0.49) focal; urgency=medium
+
+  * Initial release for focal
+  
+ -- Juan Ramon Pelegrina <juapesai@hotmail.com>  Fri, 26 Mar 2021 10:58:08 +0100
+
 dr-valentin (0.39) bionic; urgency=medium
 
   * Removed gksu from desktop file
