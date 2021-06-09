@@ -173,13 +173,13 @@ class Core:
 		self.msg_label.set_markup(def_msg)
 		os.system("xdg-open " + self.folder_chooser.get_current_folder() )
 		'''
-		cmd="/usr/share/dr-valentin/core_cli.py " + self.folder_chooser.get_current_folder()
+		cmd="/usr/share/dr-valentin/core_cli.py " + self.folder_chooser.get_filename()
 #		if self.lliurex_type=="server":
 #			cmd="gksu " + cmd
 		cmd="pkexec " + cmd
 			
 		os.system(cmd)
-		os.system("xdg-open " + self.folder_chooser.get_current_folder() )
+		os.system("xdg-open " + self.folder_chooser.get_filename())
 		
 		
 	#def m_execute
