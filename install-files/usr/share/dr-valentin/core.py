@@ -57,20 +57,22 @@ class Core:
 		self.lliurex_type=None
 		
 		
-		
-		if "server" in self.lliurex_version:
-			#self.check_root()
-			self.lliurex_type="server"
-			self.clss=server.Server
-			
-		if "client" in self.lliurex_version:
-			if self.lliurex_type==None:
-				self.lliurex_type="client"
-				self.clss=client.Client
+		for item in self.lliurex_version:
+			if "server" in item:
+				#self.check_root()
+				self.lliurex_type="server"
+				self.clss=server.Server
+				break
 				
-		if "desktop" in self.lliurex_version:
-			if self.lliurex_type==None:
-				self.lliurex_type="desktop"
+			if "client" in item:
+				if self.lliurex_type==None:
+					self.lliurex_type="client"
+					self.clss=client.Client
+					break
+					
+			if "desktop" in item:
+				if self.lliurex_type==None:
+					self.lliurex_type="desktop"
 		
 		self.start_gui()
 			
@@ -173,13 +175,13 @@ class Core:
 		self.msg_label.set_markup(def_msg)
 		os.system("xdg-open " + self.folder_chooser.get_current_folder() )
 		'''
-		cmd="/usr/share/dr-valentin/core_cli.py " + self.folder_chooser.get_current_folder()
+		cmd="/usr/share/dr-valentin/core_cli.py " + self.folder_chooser.get_filename()
 #		if self.lliurex_type=="server":
 #			cmd="gksu " + cmd
 		cmd="pkexec " + cmd
 			
 		os.system(cmd)
-		os.system("xdg-open " + self.folder_chooser.get_current_folder() )
+		os.system("xdg-open " + self.folder_chooser.get_filename() )
 		
 		
 	#def m_execute
