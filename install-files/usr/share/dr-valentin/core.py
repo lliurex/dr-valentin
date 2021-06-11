@@ -145,7 +145,7 @@ class Core:
 					
 					
 		except Exception as e:
-			prin(e,"!!!")
+			print(e,"!!!")
 			
 			
 		return path
