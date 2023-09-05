@@ -1,0 +1,27 @@
+[
+    {
+        "cmd": "/usr/share/dr-valentin/core_cli.py",
+        "prefix": "net.lliurex.dr-valentin",
+        "nameaction": "dr-valentin",
+        "icon": "valentin",
+        "auths": [
+            {
+                "type": "group",
+                "members": [
+                    "students",
+                    "teachers",
+                    "sudo"
+                ],
+                "any": "no",
+                "inactive": "no",
+                "active": "yes"
+            }
+        ],
+        "default_auth": {
+            "any": "no",
+            "inactive": "no",
+            "active": "no"
+        },
+        "requiredx": "false"
+    }
+]

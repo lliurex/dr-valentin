@@ -1,0 +1,12 @@
+Source: dr-valentin
+Section: misc
+Priority: standard
+Maintainer: Equipo LliureX <lliurex@gva.es>
+Build-Depends: llxsrchelper,debhelper (>= 10),zero-dev,python3-poinstaller
+Standards-Version: 4.1.2
+
+Package: dr-valentin
+Architecture: all
+Depends: python3, n4d, dr-valentin-common,${shlibs:Depends}
+Description:  Lliurex Diagnostic tool
+ Package to create system diagnostics
