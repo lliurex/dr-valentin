@@ -1,3 +1,9 @@
+dr-valentin (0.59.2) jammy; urgency=medium
+
+  * Initial release for Jammy
+
+ -- Juan Ramon Pelegrina <juapesai@hotmail.com>  Tue, 05 Sep 2023 11:19:07 +0200
+
 dr-valentin (0.49.2) focal; urgency=medium
 
   * Fixed a little bug
