@@ -51,21 +51,23 @@ class Core_cli:
 		self.temp_folder=tempfile.mkdtemp() + "/"
 		self.lliurex_type=None
 		
-		
-		if "server" in self.lliurex_version:
-#polkit handles permissions
-#			self.check_root()
-			self.lliurex_type="server"
-			srv=server.Server(self)
+		for item in self.lliurex_version:
+			if "server" in item:
+				#polkit handles permissions
+				#self.check_root()
+				self.lliurex_type="server"
+				srv=server.Server(self)
+				break
 			
-		if "client" in self.lliurex_version:
-			if self.lliurex_type==None:
-				self.lliurex_type="client"
-				cln=client.Client(self)
+			if "client" in item:
+				if self.lliurex_type==None:
+					self.lliurex_type="client"
+					cln=client.Client(self)
+					break
 				
-		if "desktop" in self.lliurex_version:
-			if self.lliurex_type==None:
-				self.lliurex_type="desktop"
+			if "desktop" in item:
+				if self.lliurex_type==None:
+					self.lliurex_type="desktop"
 		
 		common.Common(self)
 		
